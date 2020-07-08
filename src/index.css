@@ -37,7 +37,7 @@ code {
     align-items: center;
 }
 .container .form button {
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 0;
     text-align: center;
     background-color: #000;
@@ -49,9 +49,9 @@ code {
 }
 .container .form form {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    width: 400px;
     margin: 5px auto;
     height: 60px;
 }
@@ -66,6 +66,7 @@ code {
     height: 30px;
     width: 120px;
     border-radius: 5px;
+    margin: 5px 5px 5px 5px;
     background-color: crimson;
 }
 .container .todo {
@@ -106,17 +107,17 @@ code {
     font-size: 15px;
     justify-content: space-between;
     height: 80px;
-    width: 200px;
+    width: 240px;
     background-color: #ce56a6;
     margin: 5px;
     padding: 5px;
     border-radius: 15px;
     box-shadow: 8px 8px 5px 0px #000000bf;
 }
-.note span {
+.container .note span {
     word-break: break-all;
 }
-.note div {
+.container .note div:nth-child(1) {
     display: flex;
     justify-content: space-between;
 }
