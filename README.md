@@ -1,3 +1,7 @@
+Todo List create in React
+
+Download project and npm install to start:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
