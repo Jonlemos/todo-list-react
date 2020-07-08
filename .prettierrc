@@ -1,0 +1,7 @@
+{
+    "tabWidth": 4,
+    "arrowParens": "always",
+    "endOfLine": "auto",
+    "semi": true,
+    "trailingComma": "es5"
+}
